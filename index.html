@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <canvas id="matrix"></canvas>
+
+    <header>
+        <nav class="navbar" aria-label="Main Navigation">
+            <div class="logo">Nexus</div>
+            <ul class="nav-links">
+                <li><a href="#status_report">_status_report</a></li>
+                <li><a href="#skill_matrix">_skill_matrix</a></li>
+                <li><a href="#accomplishment_log">_accomplishment_log</a></li>
+                <li><a href="#secure_channel">_secure_channel</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <h1 class="glitch-text">HELLO FRIEND.</h1>
+            <p class="subtitle">My name is Hoda. Welcome to my console.</p>
+
+            <p class="description">
+                I am a Cybersecurity Final Year Student, passionate about exploring the digital world,<br>
+                securing systems, and ethical hacking.<br>
+                Navigating the complexities of code and networks to build a more secure future.
+            </p>
+
+            <div class="button-group">
+                <a href="#status_report" class="btn">&gt; enter_system</a>
+                <a href="#" class="btn">&DownArrow; download_resume</a>
+            </div>
+
+            <aside class="scroll-down" aria-label="Scroll Indicator">&downarrow; SCROLL &downarrow;</aside>
+        </section>
+
+        <section id="status_report" class="status-section">
+            <h2 class="section-title">./status_report</h2>
+
+            <article class="terminal-card">
+                <header>
+                    <h3>&gt; whoami_</h3>
+                </header>
+
+                <p class="bio">
+                    I'm Hoda, a final year Cybersecurity student at the Arab Academy for Science, Technology &
+                    Maritime Transport (AAST), expecting to graduate in 2026. My journey into the world of cybersecurity
+                    is driven by a deep curiosity and a commitment to understanding and mitigating digital threats.
+                </p>
+
+                <div class="log-block">
+                    <h4>// Experience_Log</h4>
+                    <section class="item">
+                        <header>
+                            <p class="item-title">Bibliotheca Alexandrina - Network Security & Systems Engineering
+                                Intern</p>
+                            <p class="item-sub">September 2025 | Alexandria</p>
+                        </header>
+                        <ul>
+                            <li>Enterprise data center operations, fiber optic cabling (single/multi-mode), Cisco UCS
+                                servers</li>
+                            <li>Configured FortiGate 60F firewall, site-to-site VPN, static/dynamic routing</li>
+                            <li>Administered Cisco routers (1900/2900 Series) and 35600 PoE-48 switch with security
+                                features</li>
+                            <li>Operated Cisco Firepower NGFWs (1010/4115) for advanced threat protection</li>
+                        </ul>
+                    </section>
+                </div>
+
+                <div class="log-block">
+                    <h4>// Education_Log</h4>
+                    <ul>
+                        <li><strong>Bachelor's in Computing and Information Technology (Cybersecurity)</strong>, AAST
+                            (2022-2026) - Alexandria, Egypt</li>
+                        <li><strong>Egyptian English Language School (EELS)</strong> - Graduated 2022</li>
+                    </ul>
+                </div>
+
+                <div class="log-block">
+                    <h4>// Certifications_&amp;_Training</h4>
+                    <ul>
+                        <li>Red Hat Certified System Administrator (RHCSA) - Information Technology Institute (2026)
+                        </li>
+                        <li>Cisco Certified Network Associate (CCNA) - Cisco (2024)</li>
+                        <li>Fortinet Certified in Cybersecurity (FCF) - Fortinet (2025)</li>
+                        <li>CompTIA Linux+ (2023)</li>
+                        <li>Developing Secure Software - The Linux Foundation (2026)</li>
+                        <li>Offensive Security Certified Professional (OSCP) - Currently Preparing</li>
+                    </ul>
+                </div>
+
+                <div class="log-block">
+                    <h4>// Human_Languages</h4>
+                    <p>Arabic (Native), English (C2 Fluent), French (A2), German (A2)</p>
+                </div>
+
+                <div class="log-block">
+                    <h4>// Additional_Competencies</h4>
+                    <p>Touch Typing: 70 WPM</p>
+                </div>
+
+                <footer class="log-block footer-notes">
+                    <p><strong>// Current_Focus:</strong> Deepening expertise in offensive security, network defence,
+                        and system administration.</p>
+                    <p><strong>// Objective:</strong> To contribute to a safer digital environment through continuous
+                        learning and practical application of cybersecurity principles.</p>
+                </footer>
+            </article>
+        </section>
+
+        <section id="skill_matrix" class="status-section">
+            <div class="main-container-box">
+                <h2 class="section-title">./skill_matrix</h2>
+
+                <div class="skills-grid">
+                    <div class="skill-card-inner">
+                        <div class="card-header">
+                            <i class="fa-solid fa-terminal"></i>
+                            <h3>Operating Systems</h3>
+                        </div>
+                        <p class="card-desc">Proficient with Linux (Debian-based, RHEL, Linux+ Concepts), Windows
+                            (Desktop/Server), and BSD servers.</p>
+                        <ul class="skill-list">
+                            <li>System administration</li>
+                            <li>Hardening</li>
+                            <li>Scripting</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card-inner">
+                        <div class="card-header">
+                            <i class="fa-solid fa-lock"></i>
+                            <h3>Security Tools & Frameworks</h3>
+                        </div>
+                        <p class="card-desc">Experienced in utilizing a variety of security tools for assessment and
+                            defense operations.</p>
+                        <ul class="skill-list">
+                            <li>Metasploit Framework</li>
+                            <li>Nmap</li>
+                            <li>Wireshark</li>
+                            <li>Burp Suite</li>
+                            <li>Splunk (SIEM)</li>
+                            <li>Postman</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card-inner">
+                        <div class="card-header">
+                            <i class="fa-solid fa-network-wired"></i>
+                            <h3>Networking & Firewalls</h3>
+                        </div>
+                        <p class="card-desc">Solid understanding of TCP/IP, routing, switching (CCNA certified), VPNs,
+                            and firewall administration.</p>
+                        <ul class="skill-list">
+                            <li>Cisco Routers & Switches</li>
+                            <li>FortiGate Firewalls</li>
+                            <li>Cisco Firepower NGFW</li>
+                            <li>pfSense with Snort</li>
+                            <li>OOBM</li>
+                            <li>Site-to-Site VPN</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card-inner">
+                        <div class="card-header">
+                            <i class="fa-solid fa-code"></i>
+                            <h3>Programming & Scripting</h3>
+                        </div>
+                        <p class="card-desc">Skilled in multiple programming and scripting languages for tool
+                            development, automation, and application creation.</p>
+                        <ul class="skill-list">
+                            <li>Python</li>
+                            <li>Bash</li>
+                            <li>Java/Kotlin</li>
+                            <li>JavaFX</li>
+                            <li>C/C++</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card-inner">
+                        <div class="card-header">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <h3>Web Development</h3>
+                        </div>
+                        <p class="card-desc">Experience building modern web applications with various frontend and
+                            backend technologies.</p>
+                        <ul class="skill-list">
+                            <li>HTML/CSS</li>
+                            <li>React.js</li>
+                            <li>Angular</li>
+                            <li>RESTful APIs (ASP.NET Core & FastAPI)</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card-inner">
+                        <div class="card-header">
+                            <i class="fa-solid fa-database"></i>
+                            <h3>Database Management</h3>
+                        </div>
+                        <p class="card-desc">Knowledge of database administration and SQL for data management and
+                            security.</p>
+                        <ul class="skill-list">
+                            <li>Oracle Database</li>
+                            <li>PostgreSQL</li>
+                            <li>Microsoft SQL Server</li>
+                            <li>Database security principles</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card-inner">
+                        <div class="card-header">
+                            <i class="fa-solid fa-code-merge"></i>
+                            <h3>Version Control</h3>
+                        </div>
+                        <p class="card-desc">Proficient in version control systems for collaborative development and
+                            code management.</p>
+                        <ul class="skill-list">
+                            <li>Git</li>
+                            <li>GitHub</li>
+                            <li>Branch management</li>
+                            <li>Code review workflows</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card-inner">
+                        <div class="card-header">
+                            <i class="fa-solid fa-microchip"></i>
+                            <h3>Hardware & Embedded Systems Security</h3>
+                        </div>
+                        <p class="card-desc">Experience with electronics design, microcontroller programming, and
+                            securing embedded systems.</p>
+                        <ul class="skill-list">
+                            <li>Arduino</li>
+                            <li>Raspberry Pi</li>
+                            <li>STM32</li>
+                            <li>ESP32</li>
+                            <li>IoT Security</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card-inner">
+                        <div class="card-header">
+                            <i class="fa-solid fa-key"></i>
+                            <h3>Cryptography</h3>
+                        </div>
+                        <p class="card-desc">Understanding of Symmetric and Public Key Encryption principles and their
+                            applications.</p>
+                        <ul class="skill-list">
+                            <li>Encryption algorithms (AES, RSA)</li>
+                            <li>Key management concepts</li>
+                            <li>Hashing functions</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card-inner">
+                        <div class="card-header">
+                            <i class="fa-solid fa-shield-halved"></i>
+                            <h3>Cybersecurity Concepts & Methodologies</h3>
+                        </div>
+                        <p class="card-desc">Comprehensive knowledge of core cybersecurity concepts, threat modeling,
+                            and defensive/offensive strategies.</p>
+                        <ul class="skill-list">
+                            <li>Vulnerability Assessment</li>
+                            <li>Digital Forensics</li>
+                            <li>Malware Analysis</li>
+                            <li>Secure Coding Practices</li>
+                            <li>Penetration Testing (OSCP concepts)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-note">
+                    // My skills are constantly evolving. The mission is perpetual learning.
+                </div>
+            </div>
+        </section>
+        <section id="accomplishment_log" class="main-container">
+            <h2 class="main-title">./accomplishment_log</h2>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img-container">
+                        <img src="OIP.webp" alt="ShipmentForge">
+                    </div>
+                    <div class="project-content">
+                        <h3>> ShipmentForge</h3>
+                        <p>A comprehensive shipment management application featuring Angular frontend, .NET WebAPI
+                            backend, and PostgreSQL database with secure architecture and modern design patterns.</p>
+                        <div class="project-tags">
+                            <span class="tag">#Angular</span>
+                            <span class="tag">#.NET</span>
+                            <span class="tag">#PostgreSQL</span>
+                            <span class="tag">#Full Stack</span>
+                            <span class="tag">#Web Application</span>
+                            <span class="tag">#Security</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img-container">
+                        <img src="coffee.jpg" alt="Native Android Application (Finjan)">
+                    </div>
+                    <div class="project-content">
+                        <h3>> Native Android Application (Finjan)</h3>
+                        <p>A modern, responsive Android coffee shop app implemented using Kotlin and Jetpack Compose.
+                            Features clean architecture and beautiful UI/UX design.</p>
+                        <div class="project-tags">
+                            <span class="tag">#Android</span>
+                            <span class="tag">#Kotlin</span>
+                            <span class="tag">#Jetpack Compose</span>
+                            <span class="tag">#Mobile Development</span>
+                            <span class="tag">#Software Engineering</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img-container">
+                        <img src="system resturent.jpg" alt="JavaFX Restaurant Food Ordering System">
+                    </div>
+                    <div class="project-content">
+                        <h3>> JavaFX Restaurant Food Ordering System</h3>
+                        <p>Modern design responsive restaurant food ordering system that interacts with a MySQL
+                            database, implemented using JavaFX. Focuses on clean UI/UX and robust backend interaction.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">#JavaFX</span>
+                            <span class="tag">#Java</span>
+                            <span class="tag">#MySQL</span>
+                            <span class="tag">#DesktopApp</span>
+                            <span class="tag">#Software Engineering</span>
+                            <span class="tag">#UI/UX</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img-container">
+                        <img src="code.jpg" alt="Walid PassAnalyzer">
+                    </div>
+                    <div class="project-content">
+                        <h3>> Walid PassAnalyzer</h3>
+                        <p>A modern, privacy-focused password strength analyzer built with React and the
+                            state-of-the-art zxcvbn library. Features crack-time estimates and improvement suggestions.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">#React</span>
+                            <span class="tag">#TypeScript</span>
+                            <span class="tag">#Password Security</span>
+                            <span class="tag">#Privacy</span>
+                            <span class="tag">#Client-Side</span>
+                            <span class="tag">#zxcvbn</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img-container">
+                        <img src="cyberSecurity.jpg" alt="Needham-Schroeder Protocol Implementation">
+                    </div>
+                    <div class="project-content">
+                        <h3>> Needham-Schroeder Protocol Implementation</h3>
+                        <p>An implementation of the Needham-Schroeder key exchange protocol, a fundamental concept in
+                            network security for secure communication.</p>
+                        <div class="project-tags">
+                            <span class="tag">#Cryptography</span>
+                            <span class="tag">#NetworkSecurity</span>
+                            <span class="tag">#Protocol</span>
+                            <span class="tag">#Java</span>
+                            <span class="tag">#Security</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img-container">
+                        <img src="metting.jpg" alt="Distributed Systems RPC Project">
+                    </div>
+                    <div class="project-content">
+                        <h3>> Distributed Systems RPC Project</h3>
+                        <p>A project demonstrating Remote Procedural Call (RPC) concepts, crucial for building robust
+                            and scalable distributed applications.</p>
+                        <div class="project-tags">
+                            <span class="tag">#DistributedSystems</span>
+                            <span class="tag">#RPC</span>
+                            <span class="tag">#Networking</span>
+                            <span class="tag">#SoftwareEngineering</span>
+                            <span class="tag">#Java</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img-container">
+                        <img src="friends_in_the_library.jpg" alt="Google Developers Group">
+                    </div>
+                    <div class="project-content">
+                        <h3>> Google Developers Group - Documentation Lead</h3>
+                        <p>Serving as Documentation Lead for Google Developers Group, contributing to technical
+                            documentation and community knowledge sharing initiatives.</p>
+                        <div class="project-tags">
+                            <span class="tag">#Community</span>
+                            <span class="tag">#Documentation</span>
+                            <span class="tag">#GDG</span>
+                            <span class="tag">#Leadership</span>
+                            <span class="tag">#Google</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img-container">
+                        <img src="work in laptop.jpg" alt="AAST Student Union">
+                    </div>
+                    <div class="project-content">
+                        <h3>> AAST Student Union - Technical Lead</h3>
+                        <p>Staff and Technical Lead at AAST Student Union, driving technical initiatives and student
+                            engagement activities.</p>
+                        <div class="project-tags">
+                            <span class="tag">#Leadership</span>
+                            <span class="tag">#Technical Lead</span>
+                            <span class="tag">#Student Union</span>
+                            <span class="tag">#AAST</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img-container">
+                        <img src="classroom.jpg" alt="IEEE Member">
+                    </div>
+                    <div class="project-content">
+                        <h3>> IEEE Member</h3>
+                        <p>Active IEEE member since January 2024, participating in events and initiatives aimed at
+                            advancing technology and engineering education.</p>
+                        <div class="project-tags">
+                            <span class="tag">#Community</span>
+                            <span class="tag">#IEEE</span>
+                            <span class="tag">#Networking</span>
+                            <span class="tag">#Professional Development</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img-container">
+                        <img src="system resturent.jpg" alt="CTF Engagement">
+                    </div>
+                    <div class="project-content">
+                        <h3>> CTF & Online Platform Engagement</h3>
+                        <p>Actively honing cybersecurity skills through Capture The Flag (CTF) competitions and online
+                            learning platforms in practical, hands-on environments.</p>
+                        <div class="project-tags">
+                            <span class="tag">#CTF</span>
+                            <span class="tag">#Ethical Hacking</span>
+                            <span class="tag">#Skill Development</span>
+                            <span class="tag">#TryHackMe</span>
+                            <span class="tag">#HackTheBox</span>
+                            <span class="tag">#Codewars</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="terminal-footer-note">
+                <p>// These are records of my current engagements and developments.</p>
+            </div>
+        </section>
+
+        <section id="secure_channel" class="terminal-section">
+            <div class="terminal-card">
+                <h2 class="main-title">./secure_channel</h2>
+                <p class="comment">// Direct_lines_of_communication_established...</p>
+                <p class="desc">Feel free to reach out. I'm always open to new connections and opportunities.</p>
+
+                <div class="inner-content-card">
+                    <div class="field">
+                        <span class="label">&gt;&gt; Email_Protocol:</span>
+                        <a href="mailto:devahmedwalid@proton.me" class="terminal-link">
+                            devreemhisham<span class="sub-text">@proton.me</span>
+                        </a>
+                    </div>
+
+                    <div class="field">
+                        <span class="label">&gt;&gt; Voice_Link_Established:</span>
+                        <span class="value">Session id:
+                            05b0d42f6ad105b3523c543e210c600bb71e5a1bc57b2feed2d5ed4c59056e1460</span>
+                    </div>
+
+                    <div class="field">
+                        <span class="label">&gt;&gt; Current_Location_Broadcast:</span>
+                        <span class="value">Alexandria, Egypt</span>
+                    </div>
+
+                    <div class="field">
+                        <span class="label">&gt;&gt; Network_Presence:</span>
+                        <ul class="network-list">
+                            <li><a href="https://linkedin.com" class="terminal-link"><span
+                                        class="net-name">LinkedIn:</span> <span class="net-user">reemhisham</span></a>
+                            </li>
+                            <li><a href="https://github.com" class="terminal-link"><span class="net-name">GitHub:</span>
+                                    <span class="net-user">reemhisham</span></a></li>
+                            <li><a href="https://tryhackme.com" class="terminal-link"><span
+                                        class="net-name">TryHackMe:</span> <span class="net-user">reemhisham</span></a>
+                            </li>
+                            <li><a href="https://hackthebox.com" class="terminal-link"><span
+                                        class="net-name">HackTheBox:</span> <span class="net-user">reemhisham (ID:
+                                        701937)</span></a></li>
+                            <li><a href="https://codewars.com" class="terminal-link"><span
+                                        class="net-name">Codewars:</span> <span class="net-user">reemhisham</span></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="field pgp-field">
+                        <span class="label">&gt;&gt; PGP_Public_Key:</span>
+                        <div class="pgp-wrapper">
+                            <button class="copy-btn">Copy Key</button>
+                            <pre id="pgp-text">-----BEGIN PGP PUBLIC KEY BLOCK-----
+mQINAEikrxY3KwY8BAhArW88AQDaQmkxMwOu8gXe1R0dwd1Rlb/73xc47/2Zq3tw
+7JuaqNe@C0FobWVkIfDhbGlk1jkEeXKAEEWIQDAw6SkRhA4etnTQtDwLVHs mHA
+KAUCAEikrwIbAWuJBaV1YQULCQgHAgI1AgYVCgkICwIEFIDAIQ6IoBwIXgAAKCBD
+WLVHsmHAKFCUAP@VuwkSUK4hFYLVHbT76z4IEpXQWbcsnBvb+qt§10tvWEA+R4A
+QlCuiNjpEb0Iqbs3rsilSWpHu31eIcCdCQ5lIQ40ARoQiSVEgorBgEEAZdVAQUB
+AQdAZie8QxY3+o81zpwidpML6y1FrG6rZwb6SHRE1AUnoDAQgmH4EGBYKACYW
+IQQDAw6SkRhA4etnTQtDwLVHs mHAKAUCAEikrwIbAUJBaV3BaV1YQAKCRBDWLVMs mHA
+KlO4AP9aS02/kaJpPiz4zRzR1B80hLPnCK6b3aZqOFdBwu4wD/Uxo3MSSgxYjy
+eMG9Hok5Jz48DCP4CX1Sm/vPBhRCngQ=
+=7hs9
+-----END PGP PUBLIC KEY BLOCK-----</pre>
+                        </div>
+                    </div>
+                </div>
+                <p class="quote">// "The keyboard is my conduit to the world."</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="footer-author">Nexus &copy; 2026</p>
+        <p class="footer-status">All systems operational. Always learning, always exploring.</p>
+    </footer>
+
+    <script src="../javascript/script.js"></script>
+</body>
+
+</html>
